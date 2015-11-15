@@ -19,13 +19,6 @@ public class Student {
         this.marks = marks;
     }
 
-    public char[] getAttend() {
-        return attend;
-    }
-
-    public void setAttend(char[] attend) {
-        this.attend = attend;
-    }
 
     public void removeBySurname() {
         surname = "n/a";
@@ -36,33 +29,28 @@ public class Student {
 
     }
 
-    /*
-    добавление нового студента
-    удаление по фамилии
-    contains - есть ли студент с определенной фамилией в группе
-    clear - очистка массива
-    trim - удаление пустых элементов массива
-    обьединение двух групп
-    сортировка по фамилии
-    containsAll - есть ли группа студентов в другой группе
-    equals - одинаковые ли группы
-    print - красивый вывод на печать группы
-*/
+//    public char[] getAttend() {
+//        return attend;
+//    }
+//
+//    public void setAttend(char[] attend) {
+//        this.attend = attend;
+//    }
 
-    public int getGroup() {
-        return group;
-    }
-
-    public int[] getMarks() {
-        return marks;
-    }
-
-    public void setMarks(int[] marks) {
-        this.marks = marks;
-    }
+//    public int[] getMarks() {
+//        return marks;
+//    }
+//
+//    public void setMarks(int[] marks) {
+//        this.marks = marks;
+//    }
 
     public void setGroup(int group) {
         this.group = group;
+    }
+
+    public int getGroup() {
+        return group;
     }
 
     public String getName() {
@@ -82,13 +70,13 @@ public class Student {
     }
 
     public void getInfo() {
-        System.out.println(name + " " + surname+" "+group);
-        for (int mark:marks) {
-            System.out.print(mark+" ");
+        System.out.println(name + " " + surname + " " + group);
+        for (int mark : marks) {
+            System.out.print(mark + " ");
         }
         System.out.println();
-        for (char att:attend) {
-            System.out.print(att+" ");
+        for (char att : attend) {
+            System.out.print(att + " ");
         }
         System.out.println();
 
