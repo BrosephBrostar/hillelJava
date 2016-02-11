@@ -7,8 +7,6 @@ public class Test {
 
         FileReader fileReader1 = new FileReader("d:\\1in.txt");
         FileWriter fileWriter1 = new FileWriter("d:\\1out.txt");
-
-
         FileReader fileReader2 = new FileReader("d:\\2in.txt");
         FileWriter fileWriter2 = new FileWriter("d:\\2out.txt");
         FileReader fileReader3 = new FileReader("d:\\3in.txt");
